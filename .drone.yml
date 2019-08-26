@@ -7,3 +7,9 @@ steps:
   commands:
   - npm ci
   - npm run test:unit
+
+trigger:
+  branch:
+    - master
+  event:
+    - push
